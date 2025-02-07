@@ -1,8 +1,8 @@
 /* confdefs.h */
 #define PACKAGE_NAME "LibreDWG"
 #define PACKAGE_TARNAME "libredwg"
-#define PACKAGE_VERSION "a0e31487-dirty"
-#define PACKAGE_STRING "LibreDWG a0e31487-dirty"
+#define PACKAGE_VERSION "fc3b1ce6-dirty"
+#define PACKAGE_STRING "LibreDWG fc3b1ce6-dirty"
 #define PACKAGE_BUGREPORT "libredwg@gnu.org"
 #define PACKAGE_URL "https://savannah.gnu.org/projects/libredwg/"
 #define HAVE_STDIO_H 1
@@ -35,3 +35,34 @@
 #define HAVE_SYS_TIME_H 1
 #define HAVE_GETOPT_H 1
 #define HAVE_ALLOCA_H 1
+#define HAVE_ENDIAN_H 1
+#define HAVE_BYTESWAP_H 1
+#define HAVE__BOOL 1
+#define AX_STRCASECMP_HEADER <strings.h>
+#define HAVE_LE16TOH 1
+#define HAVE_LE32TOH 1
+#define HAVE_LE64TOH 1
+#define HAVE_HTOLE32 1
+#define HAVE_HTOLE64 1
+#define HAVE_HTOBE16 1
+#define HAVE_HTOBE32 1
+#define HAVE_HTOBE64 1
+#define HAVE_BE64TOH 1
+#define HAVE_ALIGNED_ACCESS_REQUIRED 1
+#define SIZEOF_SIZE_T 8
+#define SIZEOF_WCHAR_T 4
+#define _POSIX_C_SOURCE 200809L
+#define HAVE_ATTRIBUTE_VISIBILITY_DEFAULT 1
+#define HAVE_FUNC_ATTRIBUTE_FORMAT 1
+#define HAVE_FUNC_ATTRIBUTE_MALLOC 1
+#define HAVE_FUNC_ATTRIBUTE_RETURNS_NONNULL 1
+#define HAVE_FUNC_ATTRIBUTE_NORETURN 1
+#define HAVE_FUNC_ATTRIBUTE_ALIGNED 1
+#define HAVE_WFORMAT_Y2K 1
+#define HAVE_C11 1
+#define HAVE_C99 1
+#define HAVE_MALLOC 1
+#define HAVE_REALLOC 1
+#define HAVE_STAT_EMPTY_STRING_BUG 1
+#define HAVE_ALLOCA_H 1
+#define HAVE_ALLOCA 1
