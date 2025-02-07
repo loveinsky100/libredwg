@@ -228,6 +228,7 @@ endif()
 
 set(libredwg_HEADERS
     include/dwg.h
+    include/dwg_helper.h
     include/dwg_api.h)
 
 if(NOT LIBREDWG_DISABLE_JSON)
@@ -256,6 +257,7 @@ set(libredwg_SOURCES
     src/decode_r11.c
     src/decode_r2007.c
     src/dwg.c
+    src/string_builder.c
     src/hash.c
     src/dwg_api.c
     src/dynapi.c

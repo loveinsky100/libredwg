@@ -8,5 +8,6 @@ export CXX=$TOOLCHAIN/bin/aarch64-linux-android21-clang++
 ./configure --host=aarch64-linux-android
 
 make clean
-make CFLAGS="-Wno-sign-compare -Wno-format"
+make CFLAGS="-Wno-sign-compare -Wno-format -Wno-format-nonliteral"
 make install
+make clean

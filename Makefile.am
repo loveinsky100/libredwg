@@ -38,6 +38,7 @@ DIST_SUBDIRS = $(SUBDIRS)
 
 include_HEADERS = \
 	include/dwg.h \
+	include/dwg_helper.h \
 	include/dwg_api.h
 
 pcdatadir = $(libdir)/pkgconfig

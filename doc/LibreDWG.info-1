@@ -1,7 +1,8 @@
 This is LibreDWG.info, produced by makeinfo version 7.2 from
 LibreDWG.texi.
 
-This manual is for GNU LibreDWG (version 56d392a7, 7 February 2025).
+This manual is for GNU LibreDWG (version 38957b0a-dirty, 7 February
+2025).
 
    Copyright © 2010-2024 Free Software Foundation, Inc.
 
@@ -30,7 +31,8 @@ File: LibreDWG.info,  Node: Top,  Next: Overview,  Up: (dir)
 GNU LibreDWG
 ************
 
-This manual is for GNU LibreDWG (version 56d392a7, 7 February 2025).
+This manual is for GNU LibreDWG (version 38957b0a-dirty, 7 February
+2025).
 
    Copyright © 2010-2024 Free Software Foundation, Inc.
 
@@ -87,8 +89,8 @@ Ribbonsoft.
 1.1 API/ABI version
 ===================
 
-LibreDWG 56d392a7 provides the API/ABI version 1.  We hope that this
-doesn't need to change much in the future.
+LibreDWG 38957b0a-dirty provides the API/ABI version 1.  We hope that
+this doesn't need to change much in the future.
 
    See ‘include/dwg.h’ for ‘LIBREDWG_VERSION_MAJOR’,
 ‘LIBREDWG_VERSION_MINOR’ and ‘LIBREDWG_SO_VERSION’.
@@ -99,7 +101,7 @@ doesn't need to change much in the future.
 Because the DWG file format is not open, its specification had to be
 reverse-engineered.  The specification is almost complete.  The LibreDWG
 implementation of the specification is an ongoing process; as of version
-56d392a7, coverage is approximately 99%.
+38957b0a-dirty, coverage is approximately 99%.
 
    It can read all DWG formats from r1.2 to r2018 for 99%.  The
 internally supported DWG revisions are identified as r1.1, r1.2, r1.3,
