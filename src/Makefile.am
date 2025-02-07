@@ -44,7 +44,10 @@ libredwg_la_SOURCES = \
 	dynapi.c \
 	classes.c \
 	dwg_api.c \
+	escape.c \
+	custom_getopt.c \
 	string_builder.c \
+	dwg_helper.c \
 	objects.c \
 	geom.c \
 	$(EXTRA_HEADERS)

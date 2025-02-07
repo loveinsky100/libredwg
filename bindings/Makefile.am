@@ -83,9 +83,13 @@ endif
 
 PERL_sources =  $(top_srcdir)/bindings/dwg.i \
 		$(top_srcdir)/include/dwg.h \
+		$(top_srcdir)/include/dwg_helper.h \
 		$(top_srcdir)/include/dwg_api.h \
+		$(top_srcdir)/programs/my_getopt.h \
 		$(top_srcdir)/src/dwg_api.c \
 		$(top_srcdir)/src/string_builder.c \
+		$(top_srcdir)/programs/getopt.c \
+		$(top_srcdir)/src/dwg_helper.c \
 		$(top_srcdir)/src/dwg.c
 
 perl/LibreDWG.pm: perl/LibreDWG.c

@@ -258,6 +258,7 @@ set(libredwg_SOURCES
     src/decode_r2007.c
     src/dwg.c
     src/string_builder.c
+    src/dwg_helper.c
     src/hash.c
     src/dwg_api.c
     src/dynapi.c
