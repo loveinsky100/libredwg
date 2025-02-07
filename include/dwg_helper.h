@@ -19,14 +19,14 @@ typedef struct {
 } string_builder;
 
 
-void sb_init(string_builder *sb);
-void sb_free(string_builder *sb);
-void sb_append(string_builder *sb, const char *str);
-void sb_appendf(string_builder *sb, const char *format, ...);
+EXPORT void sb_init(string_builder *sb);
+EXPORT void sb_free(string_builder *sb);
+EXPORT void sb_append(string_builder *sb, const char *str);
+EXPORT void sb_appendf(string_builder *sb, const char *format, ...);
 
 
 // dwg helper
-void dwg2svg(Dwg_Data *dwg, string_builder *sb);
+EXPORT void dwg2svg(Dwg_Data *dwg, string_builder *sb);
 
 #ifdef __cplusplus
 }
