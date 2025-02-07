@@ -1,7 +1,7 @@
 #include <dwg_helper.h>
 
 // 初始化 StringBuilder
-void sb_init(string_builder *sb) {
+EXPORT void sb_init(string_builder *sb) {
     sb->capacity = 16;  // 初始容量
     sb->length = 0;
     sb->str = (char *)malloc(sb->capacity * sizeof(char));
@@ -9,14 +9,14 @@ void sb_init(string_builder *sb) {
 }
 
 // 释放内存
-void sb_free(string_builder *sb) {
+EXPORT void sb_free(string_builder *sb) {
     free(sb->str);
     sb->str = NULL;
     sb->length = sb->capacity = 0;
 }
 
 // 添加字符串到 StringBuilder
-void sb_append(string_builder *sb, const char *str) {
+EXPORT void sb_append(string_builder *sb, const char *str) {
     size_t str_len = strlen(str);
 
     // 如果容量不足，扩大容量
@@ -31,7 +31,7 @@ void sb_append(string_builder *sb, const char *str) {
 }
 
 // 添加格式化字符串到 StringBuilder
-void sb_appendf(string_builder *sb, const char *format, ...) {
+EXPORT void sb_appendf(string_builder *sb, const char *format, ...) {
     va_list args;
     va_start(args, format);
 

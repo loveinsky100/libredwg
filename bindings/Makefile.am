@@ -87,6 +87,8 @@ PERL_sources =  $(top_srcdir)/bindings/dwg.i \
 		$(top_srcdir)/include/dwg_api.h \
 		$(top_srcdir)/programs/my_getopt.h \
 		$(top_srcdir)/src/dwg_api.c \
+		$(top_srcdir)/src/escape.c \
+		$(top_srcdir)/src/custom_getopt.c \
 		$(top_srcdir)/src/string_builder.c \
 		$(top_srcdir)/programs/getopt.c \
 		$(top_srcdir)/src/dwg_helper.c \

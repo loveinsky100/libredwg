@@ -786,7 +786,7 @@ output_BLOCK_HEADER (Dwg_Object_Ref *ref, string_builder *sb)
   return num;
 }
 
-void dwg2svg (Dwg_Data *dwg, string_builder *sb)
+EXPORT void dwg2svg (Dwg_Data *dwg, string_builder *sb)
 {
   BITCODE_BS i;
   int num = 0;
